@@ -16,6 +16,19 @@ body {
     perspective: 1000px;
     padding: 50px 0px;
 }
+.copright {
+    display: flex;
+    color: white;
+    opacity: 50%;
+    height: 100px;
+    width: 50px;
+    scale: 3;
+}
+.copright span {
+    position: absolute;
+    left: 180px;
+    top: -110px;
+}
 .night {
     position: fixed;
     left: 50%;
