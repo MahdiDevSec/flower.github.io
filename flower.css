@@ -16,6 +16,7 @@ body {
     perspective: 1000px;
     padding: 50px 0px;
 }
+
 .copright {
     display: flex;
     color: white;
@@ -993,4 +994,27 @@ body {
 }
 .not-loaded * {
     animation-play-state: paused !important;
+}
+@media (max-width: 1024px) {
+    .flowers {
+        transform: scale(0.85);
+    }
+    body {
+        padding: 30px 0px;
+    }
+}
+
+/* استعلامات الإعلامية للهواتف */
+@media (max-width: 768px) {
+    .flowers {
+        transform: scale(1);
+    }
+    body {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .flower {
+        transform-origin: center;
+    }
 }
